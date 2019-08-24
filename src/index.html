@@ -1,15 +1,85 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>theprotector</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, 
+    initial-scale=1.0, maximun-scale=1.0, minimun-scale 1.0">
+</head>
+
+<body>
+  
+    <h1>The Protector</h1>
+    
+    <iframe src="https://giphy.com/embed/YalzdbnnMFTBm" width="300" height="140" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+    <p>Ni la prensa ni nadie sabrá dónde está tu cliente sólo ustedes, sus guardaespaldas</p>
+    <br>
+
+    <a href="#modal" class="btnAbrirPopup">instrucciones</a>
+
+    <div class="container-all" id="modal">
+        
+        <div class="popup">
+            
+            <div class="container-text">
+                    <h3>ingresa tu llave</h3>
+                    <h3>escribe tu mensaje en la casilla</h3>
+                    <h3>oprime cubrir o descubrir</h3>
+                    <h3>y ve tu resultado</h3>
+            </div>
+            <a href="#" class="btnCerrarPopup">x</a>
+        </div>
     </div>
-    <script src="cipher.js"></script>
+    
+    <br>
+    <br>
+
+    <label for="key" class="key">ingresa la clave</label>
+                      <select  id="theKey">
+                          <option value=""> selecciona</option>
+                          <option value="01">01</option>
+                          <option value="02">02</option>
+                          <option value="03">03</option>
+                          <option value="04">04</option>
+                          <option value="05">05</option>
+                          <option value="06">06</option>
+                          <option value="07">07</option>
+                          <option value="08">08</option>
+                          <option value="09">09</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                          <option value="14">14</option>
+                          <option value="15">15</option>
+                          <option value="16">16</option>
+                          <option value="17">17</option>
+                          <option value="18">18</option>
+                          <option value="19">19</option>
+                          <option value="20">20</option>
+                          <br>
+                      </select>
+    
+    <input id="name" class="text" type="text">ingresa tu nombre
+    <br>
+    
+    <textarea message="mensaje" id="message" cols="30" rows="10">ingresa tu mensaje aqui</textarea>
+    <br>
+    <button type="text" id="encode">cubrir</button>
+    <button type="text" id="decode">descubrir</button>
+    <br>
+    <br>
+    <p></p>
+    
+    
+    <br>
+    <button type="button" id="reset">salir</button>
+    <br>
+
+
     <script src="index.js"></script>
-  </body>
+    <script src="style.css"></script>
+    <script src="cipher.js"></script>
+</body>
 </html>
