@@ -9,8 +9,6 @@ El cifrado césar es una de las técnicas más simples para cifrar un mensaje. E
 La idea surge pensando en un grupo de usuarios que necesite enviar mensajes codificados, uno de estos grupos son los guardaespaldas,  esta diseño esta app en particular, pero cualquier grupo podria usarla.
 
 Se pensó en una app sencilla y facil de usar con el minimo de botones y minimo de textareas posibles. obteniendo como primer modelo de baja fidelidad lo siguiente:https://ibb.co/r06PNSc
-https://ibb.co/r06PNSc [url=https://ibb.co/r06PNSc][img]https://i.ibb.co/yPyT71Y/New-Mockup-1.png[/img][/url]
-[url=https://es.imgbb.com/]picture hosting[/url]
 
 
 ## Considerando al usuario
@@ -37,4 +35,4 @@ Al llevar a cabo el proyecto surge los feedback, en los que se toma la desición
 - Inserta un mensaje (texto) a descifrar.
 - Ver el resultado del mensaje descifrado.
 
-
+Finalmente nuestro proyecto se ve asi=====>>>>>

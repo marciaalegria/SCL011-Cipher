@@ -7,13 +7,14 @@ html{
 }
 
 body{
-    background: rgb(3, 27, 29);
+    background: rgb(56, 19, 56);
 }
 
 .btnAbrirPopup{
-    position: relative;
-    top: 50%;
-    left: 50%;
+    position: center;
+    width: 400%;
+    top: 100%;
+    left: 90%;
     transform: translate(-50%, -50%);
     color:  rgb(3, 3, 29);
     display: block;
@@ -33,6 +34,24 @@ body{
 
 }
 
+#name{
+    font-size: 20px;
+    color: rgb(156, 156, 241);
+    font-style: italic;
+}
+#name.text{
+    font-size: 20px;
+    color: rgb(156, 156, 241);
+    font-style: italic;
+}
+
+#theKey{
+    font-size: 20px;
+    color: rgb(156, 156, 241);
+    background-color: black;
+    font-style: italic;
+}
+
 .container-all:target{
     background: rgba(0,0,0,0.8);
     visibility: visible;
@@ -48,8 +67,8 @@ body{
 }
 .popup{
     width: 100%;
-    max-width: 800px;
-    height: 500px;
+    max-width: 500px;
+    height: 990px;
     position: relative;
     display: flex;
     background: white;
@@ -59,14 +78,6 @@ body{
     transform: rotate(90deg) translate(150%, 230%);
     transition: all 600ms;
 
-}
-
-.img{
-    width: 30%;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
 }
 
 .container-text{
@@ -90,7 +101,7 @@ body{
 
 h1{
     font-size: 50px;
-    color: blue;
+    color: rgb(156, 156, 241);
     font-style: italic;
 }
 p{
@@ -99,6 +110,7 @@ p{
     font-size: 20px;
 
 }
+
 h3{
     padding: 20px;
     margin-bottom: 20px;
@@ -106,14 +118,20 @@ h3{
 
 }
 button{
-    color: rgb(117, 117, 172)
+    color: rgb(65, 12, 78)
 }
-
+#offset{
+    font-size: 20px;
+    color: rgb(156, 156, 241);
+    font-style: italic;
+}
 textarea{
-    background-color: rgba(138, 188, 233, 0.76);
+    background-color: rgba(183, 183, 241, 0.972);
     border-block-start-color: beige;
     border-block-start-style: hidden;
+    
 }
+
 input{
     font-style: italic;
     color: #8b94e7;

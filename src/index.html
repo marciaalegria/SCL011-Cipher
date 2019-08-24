@@ -32,10 +32,9 @@
         </div>
     </div>
     
-    <br>
-    <br>
+    
 
-    <label for="key" class="key">ingresa la clave</label>
+    <label for="key" id="offset" class="key">ingresa la clave</label>
                       <select  id="theKey">
                           <option value=""> selecciona</option>
                           <option value="01">01</option>
@@ -60,11 +59,15 @@
                           <option value="20">20</option>
                           <br>
                       </select>
-    
-    <input id="name" class="text" type="text">ingresa tu nombre
+    <br>                  
+    <p>ingresa tu nombre</p>
+    <input id="name" class="text" type="text">
+
+    <br>
     <br>
     
-    <textarea message="mensaje" id="message" cols="30" rows="10">ingresa tu mensaje aqui</textarea>
+    <textarea message="mensaje" id="message" cols="50" rows="10">
+        ingresa tu mensaje aqui</textarea>
     <br>
     <button type="text" id="encode">cubrir</button>
     <button type="text" id="decode">descubrir</button>
