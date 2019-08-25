@@ -175,6 +175,13 @@ input{
     background-color: #8b94e7;
 }
 
+h4{
+    text-align: center;
+    font-size: 38px;
+    color: rgb(156, 156, 241);
+    font-style: italic;
+}
+
 @media screen and (max-width:900px){
     .popup{
         flex-direction: column;

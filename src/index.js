@@ -5,7 +5,7 @@ function myFunction() {
     var final = document.getElementById("name").value;
     var nuevo= "te envia un mensaje";
     document.getElementById("final").innerHTML =  final+nuevo;
-  };
+  }
 
 document.getElementById("encode").addEventListener("click",() =>{
     cipher.encode();
