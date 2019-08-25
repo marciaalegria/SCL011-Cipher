@@ -62,7 +62,7 @@
                       </select>
     <br>                  
     <p>ingresa tu nombre</p>
-    <input id="name" class="text" type="text">
+    <input id="name" class="text" type="text" onchange="myFunction()">
 
     <br>
     <br>
@@ -81,7 +81,10 @@
     <button type="button" id="reset">salir</button>
     <br>
 </div>
-
+<div>
+    <button type="submit">enviar</button>
+    <p id="final">te envia un mensaje</p>
+</div>
     <script src="index.js"></script>
     <script src="style.css"></script>
     <script src="cipher.js"></script>
