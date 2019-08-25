@@ -8,8 +8,8 @@ El cifrado césar es una de las técnicas más simples para cifrar un mensaje. E
 
 La idea surge pensando en un grupo de usuarios que necesite enviar mensajes codificados, uno de estos grupos son los guardaespaldas,  esta diseño esta app en particular, pero cualquier grupo podria usarla.
 
-Se pensó en una app sencilla y facil de usar con el minimo de botones y minimo de textareas posibles. obteniendo como primer modelo de baja fidelidad lo siguiente:[url=https://ibb.co/r06PNSc][img]https://i.ibb.co/yPyT71Y/New-Mockup-1.png[/img]
-[/url]https://ibb.co/r06PNSc
+Se pensó en una app sencilla y facil de usar con el minimo de botones y minimo de textareas posibles. obteniendo como primer modelo de baja fidelidad lo siguiente:[url=https://ibb.co/r06PNSc] 
+![alt text](https://ibb.co/r06PNSc)
 
 
 ## Considerando al usuario
