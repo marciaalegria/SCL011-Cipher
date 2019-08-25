@@ -10,17 +10,30 @@ body{
     background: rgb(56, 19, 56);
 }
 
+.body{
+    text-align: center;
+}
+
+h2{
+    font-size: 36px;
+    color: rgb(156, 156, 241);
+    font-style: italic;
+}
+
 .btnAbrirPopup{
-    position: center;
-    width: 400%;
-    top: 100%;
-    left: 90%;
-    transform: translate(-50%, -50%);
+   
+    margin-left: 23%;
+    width: 50%;
     color:  rgb(3, 3, 29);
     display: block;
     background:  rgb(178, 178, 241);
     padding: 20px 50px;
     border-radius: 50px;
+}
+
+.btnAbrirPopup:hover
+{
+    background-color: rgb(71, 240, 183);
 }
 
 .container-all{
@@ -48,7 +61,10 @@ body{
 #theKey{
     font-size: 20px;
     color: rgb(156, 156, 241);
-    background-color: black;
+    background-color:  rgb(56, 19, 56);
+    border-block-start-color:  rgb(56, 19, 56);
+    border-block-end-color:  rgb(56, 19, 56);
+    border: #8b94e7;
     font-style: italic;
 }
 
@@ -67,8 +83,8 @@ body{
 }
 .popup{
     width: 100%;
-    max-width: 500px;
-    height: 990px;
+    max-width: 400px;
+    height: 999px;
     position: relative;
     display: flex;
     background: white;
@@ -165,10 +181,6 @@ input{
         height: 100%;
         max-height: 800px;
     }
-    .img{
-        width: 100%;
-        height: 40%;
-    }
     .container-text{
         width: 100%;
         height: 60%;
@@ -178,4 +190,3 @@ input{
         font-size: 20px;
     }
 }
-/**/
